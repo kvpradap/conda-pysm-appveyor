@@ -18,9 +18,9 @@ requirements:
 test:
     requires:
         - nose
-    commands:
-        - nosetests 
+    #commands:
+    #    - nosetests 
 
 about:
-  home: https://github.com/rmcgibbo/python-appveyor-conda-example
+  #home: https://github.com/rmcgibbo/python-appveyor-conda-example
   license: MIT
