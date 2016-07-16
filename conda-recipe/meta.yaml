@@ -1,28 +1,68 @@
 package:
   name: py_stringmatching
-  # version: "1.0"
-  # the version is actually being set by the __conda_version__.txt file
-  # http://conda.pydata.org/docs/build.html#post-build-version
+  version: "0.1.0"
+
+source:
+  fn: py_stringmatching-0.1.0.0.tar.gz
+  url: https://files.pythonhosted.org/packages/ed/65/ee081909cd38244e2939ce03232383da7e7bc5ad9f77cf4065af906fc8bf/py_stringmatching-0.1.0.0.tar.gz
+  md5: 5949c3c518664aabde86f5fd0e18023e
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+# build:
+  # noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - py_stringmatching = py_stringmatching:main
+    #
+    # Would create an entry point called py_stringmatching that calls py_stringmatching.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
 
 requirements:
   build:
     - python
-    - cython
-    - numpy
-    - six
     - setuptools
+    - numpy >=1.7.0
+    - six
 
   run:
     - python
-    - numpy
+    - numpy >=1.7.0
     - six
 
 test:
-    requires:
-        - nose
-    #commands:
-    #    - nosetests 
+  # Python imports
+  imports:
+    - py_stringmatching
+    - py_stringmatching.similarity_measure
+    - py_stringmatching.tests
+    - py_stringmatching.tokenizer
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
 
 about:
-  #home: https://github.com/rmcgibbo/python-appveyor-conda-example
-  license: MIT
+  home: https://sites.google.com/site/anhaidgroup/projects/py_stringmatching
+  license: BSD License
+  summary: 'Python library for string matching.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

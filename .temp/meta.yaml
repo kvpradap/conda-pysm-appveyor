@@ -1,0 +1,28 @@
+package:
+  name: py_stringmatching
+   version: "0.2.1"
+  # the version is actually being set by the __conda_version__.txt file
+  # http://conda.pydata.org/docs/build.html#post-build-version
+
+requirements:
+  build:
+    - python
+    - cython
+    - numpy
+    - six
+    - setuptools
+
+  run:
+    - python
+    - numpy
+    - six
+
+test:
+    requires:
+        - nose
+    #commands:
+    #    - nosetests 
+
+about:
+  #home: https://github.com/rmcgibbo/python-appveyor-conda-example
+  license: MIT
