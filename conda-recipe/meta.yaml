@@ -19,7 +19,7 @@ test:
     requires:
         - nose
     commands:
-        - nosetests --exe pyappveyordemo
+        - nosetests 
 
 about:
   home: https://github.com/rmcgibbo/python-appveyor-conda-example
