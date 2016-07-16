@@ -1,0 +1,488 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">99%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">b</span>
+        <span class="key">p</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>945</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>290</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="1232 1235">99%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_affine_py.html">py_stringmatching/similarity_measure/affine.py</a></td>
+                <td>51</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 61">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_bag_distance_py.html">py_stringmatching/similarity_measure/bag_distance.py</a></td>
+                <td>30</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 38">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_cosine_py.html">py_stringmatching/similarity_measure/cosine.py</a></td>
+                <td>20</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 28">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_dice_py.html">py_stringmatching/similarity_measure/dice.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 27">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_editex_py.html">py_stringmatching/similarity_measure/editex.py</a></td>
+                <td>100</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="126 126">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_generalized_jaccard_py.html">py_stringmatching/similarity_measure/generalized_jaccard.py</a></td>
+                <td>54</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="74 76">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_hamming_distance_py.html">py_stringmatching/similarity_measure/hamming_distance.py</a></td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 21">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_hybrid_similarity_measure_py.html">py_stringmatching/similarity_measure/hybrid_similarity_measure.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_jaccard_py.html">py_stringmatching/similarity_measure/jaccard.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 27">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_jaro_py.html">py_stringmatching/similarity_measure/jaro.py</a></td>
+                <td>45</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>22</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="66 67">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_jaro_winkler_py.html">py_stringmatching/similarity_measure/jaro_winkler.py</a></td>
+                <td>28</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 34">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_levenshtein_py.html">py_stringmatching/similarity_measure/levenshtein.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 23">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_monge_elkan_py.html">py_stringmatching/similarity_measure/monge_elkan.py</a></td>
+                <td>27</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 35">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_needleman_wunsch_py.html">py_stringmatching/similarity_measure/needleman_wunsch.py</a></td>
+                <td>36</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="44 44">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_overlap_coefficient_py.html">py_stringmatching/similarity_measure/overlap_coefficient.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 27">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_phonetic_similarity_measure_py.html">py_stringmatching/similarity_measure/phonetic_similarity_measure.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_sequence_similarity_measure_py.html">py_stringmatching/similarity_measure/sequence_similarity_measure.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_similarity_measure_py.html">py_stringmatching/similarity_measure/similarity_measure.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_smith_waterman_py.html">py_stringmatching/similarity_measure/smith_waterman.py</a></td>
+                <td>34</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 38">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_soft_tfidf_py.html">py_stringmatching/similarity_measure/soft_tfidf.py</a></td>
+                <td>80</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="106 106">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_soundex_py.html">py_stringmatching/similarity_measure/soundex.py</a></td>
+                <td>36</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 38">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_tfidf_py.html">py_stringmatching/similarity_measure/tfidf.py</a></td>
+                <td>59</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="77 77">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_token_similarity_measure_py.html">py_stringmatching/similarity_measure/token_similarity_measure.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_similarity_measure_tversky_index_py.html">py_stringmatching/similarity_measure/tversky_index.py</a></td>
+                <td>33</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="41 41">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_tokenizer_alphabetic_tokenizer_py.html">py_stringmatching/tokenizer/alphabetic_tokenizer.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 16">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_tokenizer_alphanumeric_tokenizer_py.html">py_stringmatching/tokenizer/alphanumeric_tokenizer.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 16">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_tokenizer_definition_tokenizer_py.html">py_stringmatching/tokenizer/definition_tokenizer.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_tokenizer_delimiter_tokenizer_py.html">py_stringmatching/tokenizer/delimiter_tokenizer.py</a></td>
+                <td>34</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="42 42">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_tokenizer_qgram_tokenizer_py.html">py_stringmatching/tokenizer/qgram_tokenizer.py</a></td>
+                <td>68</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>32</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="100 100">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_tokenizer_tokenizer_py.html">py_stringmatching/tokenizer/tokenizer.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_tokenizer_whitespace_tokenizer_py.html">py_stringmatching/tokenizer/whitespace_tokenizer.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 16">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="py_stringmatching_utils_py.html">py_stringmatching/utils.py</a></td>
+                <td>49</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>36</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="85 85">100%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.1</a>,
+            created at 2016-06-24 18:26
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

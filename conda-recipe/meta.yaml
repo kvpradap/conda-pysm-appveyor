@@ -1,5 +1,5 @@
 package:
-  name: pyappveyordemo
+  name: py_stringmatching
   # version: "1.0"
   # the version is actually being set by the __conda_version__.txt file
   # http://conda.pydata.org/docs/build.html#post-build-version
@@ -9,11 +9,13 @@ requirements:
     - python
     - cython
     - numpy
+    - six
     - setuptools
 
   run:
     - python
     - numpy
+    - six
 
 test:
     requires:
